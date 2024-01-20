@@ -42,7 +42,7 @@ const Facebook = () => {
                     Password
                   </label>
                   <Input
-                    placeholder=".........."
+                    placeholder="*******"
                     className="w-full"
                     type="password"
                   />

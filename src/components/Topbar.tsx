@@ -31,6 +31,9 @@ const Topbar = () => {
           <Link to={"/facebook"}>
             <Dropdown text="Facebook" />
           </Link>
+          <Link to={"/post"}>
+            <Dropdown text="Post" />
+          </Link>
 
           <Dropdown
             text="Youtube"
@@ -38,7 +41,6 @@ const Topbar = () => {
             itemList="cursor-pointer"
             icon={<FaChevronDown />}
           />
-          <Dropdown text="Google" />
           <Dropdown text="Twitter" />
           <Dropdown
             text="Apple"
